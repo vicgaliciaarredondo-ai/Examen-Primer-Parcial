@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Examen-Primer-Parcial/static/css/main.ebcda194.css",
+    "main.js": "/Examen-Primer-Parcial/static/js/main.23197577.js",
+    "static/js/453.eec9c373.chunk.js": "/Examen-Primer-Parcial/static/js/453.eec9c373.chunk.js",
+    "index.html": "/Examen-Primer-Parcial/index.html",
+    "main.ebcda194.css.map": "/Examen-Primer-Parcial/static/css/main.ebcda194.css.map",
+    "main.23197577.js.map": "/Examen-Primer-Parcial/static/js/main.23197577.js.map",
+    "453.eec9c373.chunk.js.map": "/Examen-Primer-Parcial/static/js/453.eec9c373.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebcda194.css",
+    "static/js/main.23197577.js"
+  ]
+}
