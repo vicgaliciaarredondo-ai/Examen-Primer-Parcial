@@ -2,37 +2,79 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
+  color: #222;
+  padding: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.contenedor-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 900px) {
+  .contenedor-tarjetas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 500px) {
+  .contenedor-tarjetas {
+    grid-template-columns: 1fr;
   }
+}
+
+.tarjeta {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.tarjeta h2 {
+  font-size: 28px;
+  margin: 0 0 10px;
+}
+
+.tarjeta p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.tabla {
+  border-collapse: collapse;
+  width: 60%;
+  font-size: 18px;
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla th {
+  background: #282c34;
+  color: #fff;
 }
